@@ -32,7 +32,7 @@ Wenn man das X Knopferl in der oberen Fensterecke drückt, soll anstatt, dass si
 ----
 Denken Sie sich ein Passwort aus, wenn man das Passwort auf der Tastatur eingibt, während das `JFrame` geöffnet und das aktuelle Fenster ist, dann soll sich die Applikation beenden.
 
-`addKeyListener`, `KeyAdapter`, `KeyAdapter.keyTyped`, `KeyListener.getKeyChar`,
+`addKeyListener`, `KeyAdapter`, `KeyListener.keyTyped`, `KeyEvent.getKeyChar`,
 `System.exit`
 
 5 Paketieren
