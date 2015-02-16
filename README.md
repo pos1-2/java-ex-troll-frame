@@ -11,7 +11,7 @@ Der Button soll mit `"Schließen"` beschriftet sein, aber keine Funktion haben.
 
 Die Position des Buttons soll zufällig festgelegt sein. Achten Sie aber darauf, dass er `JButton` immer vollständig sichtbar ist! (Also nicht über den Fensterrand hinausragt, oder gar gänzlich außerhalb des `JFrame` liegt).
 
-`getBounds`, `setLocation`
+`getBounds`, `setLocation`, [`JFrame` Größe ermitteln](JFRAME-SIZE.md)
 
 2 Flüchtiger Button
 -------
