@@ -28,6 +28,10 @@ Wenn man das X Knopferl in der oberen Fensterecke drückt, soll anstatt, dass si
 `JFrame.setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE)`,
 `JFrame.addWindowListener`, `WindowAdapter`, `WindowListener.windowClosing`
 
+Für den besten Effekt, achten Sie darauf, dass (gleich direkt nach dem Duplizieren) sowohl das alte (geklickte) als auch das neue (erstellte) `JFrame` gut sichtbar sind (und nicht z.B. pixelgenau übereinander liegen).
+
+`JFrame.setLocation`, `JFrame.getLocation/JFrame.getLocationOnScreen`, `java.awt.Toolkit.getDefaultToolkit().getScreenSize()`
+
 4 Geheimausgang
 ----
 Denken Sie sich ein Passwort aus, wenn man das Passwort auf der Tastatur eingibt, während das `JFrame` geöffnet und das aktuelle Fenster ist, dann soll sich die Applikation beenden.
