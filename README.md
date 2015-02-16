@@ -41,6 +41,6 @@ In `Swing` können sie mittels `setFocusable` festlegen, ob ein Element, den Fok
 
 5 Paketieren
 -----
-Packen Sie Ihr Programm in eine ausführbare `.jar` dabei, damit Sie Ihren Bekannten zeigen können, was Sie alles tolles in der Schule lernen.
+Packen Sie Ihr Programm in eine ausführbare `.jar` Datei, damit Sie Ihren Bekannten zeigen können, was Sie alles tolles in der Schule lernen.
 
 Siehe Anleitung hier: http://stackoverflow.com/a/5293338
