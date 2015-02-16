@@ -32,6 +32,10 @@ Wenn man das X Knopferl in der oberen Fensterecke drückt, soll anstatt, dass si
 ----
 Denken Sie sich ein Passwort aus, wenn man das Passwort auf der Tastatur eingibt, während das `JFrame` geöffnet und das aktuelle Fenster ist, dann soll sich die Applikation beenden.
 
+Beachten Sie, dass es bei GUIs das Konzept des Keyboard-Fokus gibt: D.h. *genau ein* Element horcht exklusiv auf die Tastatur (exklusiv in dem Sinne, dass alle anderen Elemente gar nichts vom Keyboard mitbekommen *können*). Der Fokus ist grafisch markiert, z.B. mit einem grauen Rahmen um das fokusierte Element und kann meistens mittels Mausklick geändert werden (zB mit dem Klick in ein `JTextField` bekommt dieses den Fokus, und das vorige Element verliert den Fokus).
+
+In `Swing` können sie mittels `setFocusable` festlegen, ob ein Element, den Fokus *überhaupt haben kann* oder nicht. Sie können den Fokus auf ein Element auch programmatisch setzen, indem Sie `element.requestFocus()` verwenden.
+
 `addKeyListener`, `KeyAdapter`, `KeyListener.keyTyped`, `KeyEvent.getKeyChar`,
 `System.exit`
 
